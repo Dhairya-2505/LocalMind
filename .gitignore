@@ -221,3 +221,15 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# LocalMind - Private API keys
+.env.*
+
+# LocalMind - Uploaded PDFs and vector indexes
+data/uploads/
+data/indexes/
+data/metadata/
+
+# LocalMind - Local databases
+*.db
+*.sqlite3
